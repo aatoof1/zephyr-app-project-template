@@ -1,0 +1,16 @@
+/**
+ * @file app_version.h
+ *
+ * Application version information.
+ *
+ * Copyright (c) 2022 Trackunit
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+#pragma once
+
+
+/** Application version (string). */
+#define APP_VERSION_STR "${APP_VERSION}"
+#define BUILD_TIME_UNIX ${BUILD_TIME_UNIX}U
+

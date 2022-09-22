@@ -1,0 +1,14 @@
+# Equivalent to the above, but with manually maintained Zephyr modules.
+manifest:
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+  defaults:
+    remote: zephyrproject-rtos
+  projects:
+    - name: zephyr
+      path: vendor/zephyr
+      revision: v3.1.0
+      west-commands: scripts/west-commands.yml
+  self:
+    path: .
